@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    tools:context=".Menu"
+    android:orientation="vertical"
+    android:stretchColumns="*"
+    android:background="#161313"
+    android:id="@+id/tl">
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/play"
+        android:id="@+id/bt3"
+        android:layout_gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:background="@drawable/buttonshape3"
+        android:clickable="true"
+        android:layout_weight="2"
+        android:drawableRight="@drawable/next" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/stat"
+        android:id="@+id/bt2"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:background="@drawable/buttonshape2"
+        android:clickable="true"
+        android:layout_weight="2"
+        android:drawableRight="@drawable/next"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/instr"
+        android:id="@+id/bt1"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:background="@drawable/buttonshape1"
+        android:clickable="true"
+        android:layout_weight="2"
+        android:drawableRight="@drawable/next"/>
+
+</TableLayout>
+

@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="tv1">ASCEND</string>
+    <string name="game_name">What if?</string>
+    <string name="instr">INSTRUCTION</string>
+    <string name="play">   PLAY</string>
+    <string name="stat">STATISTICS</string>
+    <string name="INSTRUCTION">INSTRUCTION</string>
+    <string name="ins1"><i> <b> “What if ... None of the innovations we enjoy today could have happened
+        without individuals who were willing to go beyond the available knowledge to explore the
+        What If inside of their own mind.” </b> </i>               - - Lisa Abeyta\n\n
+    </string>
+    <string name="ins2"> <b> Asking a question that begins with \"What if\" helps us discover what happens
+        when we try something new. These “what ifs” encourage
+        innovators to take risks, make mistakes, discover, invent or create, ignite imagination and
+        inspire challenge the status quo. They aren’t always the solution, but they’re starting points.\n\n
+         Constructive questions empower and create new possibilities.
+        They lead to action. \n\n </b></string>
+    <string name="ins3"> GUIDE:\n\n </string>
+      <string name="ins4"><b>
+        1.	Create as many possible answers as possible.\n  You have 30 seconds.\n
+        2.	Press button “+” when get new answer.\n
+        3.	Be honest.\n</b>
+      </string>
+    <string name="kg">KEEP GOING!</string>
+
+
+    <string-array name="questions">
+        <item>What if you have doppelganger?</item>
+        <item>What if you will catch goldfish? What wishes would you tell?</item>
+        <item>What if you have million dollars?</item>
+        <item>What if today is your last day? </item>
+        <item>What if tomorrow you will become Bill Gates? </item>
+        <item>What if a sea waters has no salt? </item>
+        <item>What if you fell into a black hole? </item>
+        <item>What if Earth were twice as big? </item>
+        <item>What if everyone on Earth jumped at once? </item>
+        <item>What if all the cats in the world suddenly died? </item>
+        <item>What if you only ate one type of food? </item>
+        <item>What if there were no seasons? </item>
+        <item>What if you could be free? </item>
+        <item>What if you change your gender for a day? </item>
+        <item>What if you woke up in a world that had absolutely no crime? </item>
+        <item>What if your pet could only talk to you at midnight for an hour? </item>
+        <item>What if you could live in Harry Potter world? </item>
+        <item>What if you could find the strength to forgive anyone, no matter how badly they have hurt you? </item>
+        <item>What if you could make someone fall in love with you? </item>
+        <item>What if electricity and any other power source was unavailable for a full week? </item>
+        <item>What if you were unable to smile for a full month? </item>
+        <item>What if you woke up and your body was made out of bacon? </item>
+        <item>What if you found out all the answers to the greatest mysteries in the world? </item>
+        <item>What if you could create your own TV? </item>
+        <item>What if you could be invisible? </item>
+        <item>What if elephants could fly? </item>
+        <item>What if women ruled the world? </item>
+        <item>What if teachers earned as much as rock stars? </item>
+        <item>What if no one were allowed to earn more than $100,000 a year? </item>
+        <item>What if there was no music in the world? </item>
+        <item>What if war declared illegal? </item>
+        <item>What if there were twice more mountains? </item>
+        <item>What if you got magic printer which could print real money? </item>
+        <item>What if you met Mark Zuckerberg? </item>
+        <item>What if people slept 23 hours a day and were awake for only 1? </item>
+    </string-array>
+
+</resources>
