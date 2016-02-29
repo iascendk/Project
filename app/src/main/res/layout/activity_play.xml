@@ -6,7 +6,7 @@
     tools:context=".Play"
     android:orientation="vertical"
     android:weightSum="1"
-    android:background="@drawable/other">
+    android:background="@drawable/back_play">
 
 
 
@@ -22,7 +22,7 @@
         android:id="@+id/plus"
         android:layout_gravity="top|center_vertical"
         android:onClick="increaseInteger"
-        android:text="+"
+        android:text="@string/plus_sign"
         android:textColor="#FFFFFF"
         android:textSize="80sp"
         android:background="@drawable/buttonshape5"
@@ -34,7 +34,7 @@
     <Button
         android:id="@+id/score"
         android:padding="20dp"
-        android:text="0"
+        android:text="@string/fir_score"
         android:textColor="#FFFFFF"
         android:textSize="50sp"
         android:layout_width="100dp"
@@ -65,7 +65,7 @@
         android:layout_height="150dp"
         android:id="@+id/minus"
         android:onClick="decreaseInteger"
-        android:text="-"
+        android:text="@string/minus_sign"
         android:textColor="#FFFFFF"
         android:textSize="110sp"
         android:background="@drawable/buttonshape6"
@@ -79,7 +79,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="30"
+        android:text="@string/time"
         android:id="@+id/mCount"
         android:textSize="50sp"
         android:textStyle="bold"
@@ -91,7 +91,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="shuffle"
+        android:text="@string/shuffle"
         android:id="@+id/shuffle"
         android:layout_below="@+id/question"
         android:layout_toRightOf="@+id/plus"

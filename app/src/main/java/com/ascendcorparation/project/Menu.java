@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class Menu extends AppCompatActivity implements View.OnClickListener {
-    protected Button bt1, bt2, bt3;
+    protected Button bt1, bt2, bt3; // Используемые переменные
     protected Typeface tf1;
     protected Intent intent;
 

@@ -20,68 +20,67 @@ public class Score extends AppCompatActivity {
         tv2 = (TextView) findViewById(R.id.tv2);
         tv3 = (TextView) findViewById(R.id.tv3);
 
-        int score = getIntent().getExtras().getInt("score", 13);
+        int score = getIntent().getExtras().getInt("score", 13); // Получение данных из прошлой активности
         bt.setText(String.valueOf(score));
 
-        switch (score) {
+        switch (score) { // Вставка в TextView записей в зависимости от полученного балла
             case 1:
             case 2:
             case 3:
-                tv3.setText("Low result. You should practise more!");
-                tv2.setText("Beginner");
+                tv3.setText(R.string.sc1);
+                tv2.setText(R.string.l1);
                 break;
             case 4:
             case 5:
-                tv3.setText("Keep going! You are in a right direction!");
-                tv2.setText("Beginner");
+                tv3.setText(R.string.sc2);
+                tv2.setText(R.string.l1);
                 break;
             case 6:
             case 7:
-                tv3.setText("You have nice potential!");
-                tv2.setText("Amateur");
+                tv3.setText(R.string.sc3);
+                tv2.setText(R.string.l2);
                 break;
             case 8:
             case 9:
-                tv3.setText("Thar's average result. You can't be in the middle!:)");
-                tv2.setText("Amateur");
+                tv3.setText(R.string.sc4);
+                tv2.setText(R.string.l2);
                 break;
             case 10:
             case 11:
-                tv3.setText("CoOoOl! We are proud of you.");
-                tv2.setText("Professional");
+                tv3.setText(R.string.sc5);
+                tv2.setText(R.string.l3);
                 break;
             case 12:
             case 13:
-                tv3.setText("Look at you! So intelligent! Keep going:)");
-                tv2.setText("Professional");
+                tv3.setText(R.string.sc6);
+                tv2.setText(R.string.l3);
                 break;
             case 14:
             case 15:
             case 16:
-                tv3.setText("Are not you Steve Jobs?! You are amazing!");
-                tv2.setText("Professional");
+                tv3.setText(R.string.sc7);
+                tv2.setText(R.string.l3);
                 break;
             case 17:
             case 18:
-                tv3.setText("You are definitely genuine! Keep going!");
-                tv2.setText("Master");
+                tv3.setText(R.string.sc8);
+                tv2.setText(R.string.l4);
                 break;
             case 19:
             case 20:
-                tv3.setText("HOW ARE YOU DOING THIS? Are not you a computer?:)");
-                tv2.setText("Master");
+                tv3.setText(R.string.sc9);
+                tv2.setText(R.string.l4);
                 break;
             default:
-                tv3.setText("You are probably part of 10% of smartest people in the world!");
-                tv2.setText("Expert");
-
+                tv3.setText(R.string.sc10);
+                tv2.setText(R.string.l5);
 
         }
 
 
 
-        Button vk = (Button) findViewById(R.id.vk);
-        vk.setOnClickListener(new View.OnClickListener() {
+        Button share = (Button) findViewById(R.id.share); // Поделиться сообщением
+        share.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -101,7 +100,7 @@ public class Score extends AppCompatActivity {
         });
 
 
-        Button exit = (Button) findViewById(R.id.exit);
+        Button exit = (Button) findViewById(R.id.exit); // Выход из приложения
         exit.setOnClickListener(new View.OnClickListener() {
 
             @Override

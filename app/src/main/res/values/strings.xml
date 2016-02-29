@@ -3,7 +3,7 @@
     <string name="tv1">ASCEND</string>
     <string name="game_name">What if?</string>
     <string name="instr">INSTRUCTION</string>
-    <string name="play">   PLAY</string>
+    <string name="play">PLAY</string>
     <string name="stat">STATISTICS</string>
     <string name="INSTRUCTION">INSTRUCTION</string>
     <string name="ins1"><i> <b> “What if ... None of the innovations we enjoy today could have happened
@@ -19,10 +19,32 @@
     <string name="ins3"> GUIDE:\n\n </string>
       <string name="ins4"><b>
         1.	Create as many possible answers as possible.\n  You have 30 seconds.\n
-        2.	Press button “+” when get new answer.\n
+        2.	Press button “+” when get new answer and "Shuffle" to get random question.\n
         3.	Be honest.\n</b>
       </string>
     <string name="kg">KEEP GOING!</string>
+    <string name="shuffle">shuffle</string>
+    <string name="time">30</string>
+    <string name="fir_score">0</string>
+    <string name="plus_sign">+</string>
+    <string name="sc1">Low result. You should practise more!</string>
+    <string name="l1">Beginner</string>
+    <string name="sc2">Keep going! You are in a right direction!</string>
+    <string name="sc3">You have nice potential!</string>
+    <string name="l2">Amateur</string>
+    <string name="sc4">Thar\'s average result. You can\'t be in the middle!:)</string>
+    <string name="sc5">CoOoOl! We are proud of you.</string>
+    <string name="l3">Professional</string>
+    <string name="sc6">Look at you! So intelligent! Keep going:)</string>
+    <string name="sc7">Are not you Steve Jobs?! You are amazing!</string>
+    <string name="sc8">You are definitely genuine! Keep going!</string>
+    <string name="l4">Master</string>
+    <string name="sc9">HOW ARE YOU DOING THIS? Are not you a computer?:)</string>
+    <string name="sc10">You are probably part of 10% of smartest people in the world!</string>
+    <string name="l5">Expert</string>
+    <string name="exit">Exit</string>
+    <string name="share">SHARE</string>
+    <string name="minus_sign">-</string>
 
 
     <string-array name="questions">
