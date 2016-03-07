@@ -18,6 +18,8 @@ public class Play extends AppCompatActivity {
     protected Random random;
     protected Question questionnaire;
     protected Button score;
+    protected Button plus;
+    protected Button minus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,9 +27,6 @@ public class Play extends AppCompatActivity {
         setContentView(R.layout.activity_play);
         mCount = (TextView) findViewById(R.id.mCount);
         init();
-        if (Question.count(Question.class) != 35) { // Заполнение базы данных
-            fillDB();
-        }
 
 
 
@@ -54,7 +53,7 @@ public class Play extends AppCompatActivity {
             //Задаем действия после завершения отсчета:
             public void onFinish() {
                 Intent intent = new Intent(Play.this, Score.class);
-                intent.putExtra("score", 13);
+                intent.putExtra("score", minteger);
                 startActivity(intent);
             }
         }
@@ -64,15 +63,11 @@ public class Play extends AppCompatActivity {
     public void init() { // метод инициализации кнопок
         shuffle = (Button) findViewById(R.id.shuffle);
         question = (TextView) findViewById(R.id.question);
+        plus = (Button) findViewById(R.id.plus);
+        minus = (Button) findViewById(R.id.minus);
+        score = (Button) findViewById(R.id.score);
     }
 
-    public void fillDB() { // Вытягивание вопросов из string массива
-        for (int i = 0; i < 35; i++) {
-            System.out.println(getResources().getStringArray(R.array.questions)[i]);
-            questionnaire = new Question(getResources().getStringArray(R.array.questions)[i], i);
-            Question.save(questionnaire);
-        }
-    }
 
 
     public void increaseInteger(View view) { // Увеличение значения
